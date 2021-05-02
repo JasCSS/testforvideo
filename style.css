@@ -1,0 +1,87 @@
+* {
+    margin: 0, auto;
+    padding: 0;
+  }
+  
+  /*------ Nav ------*/
+
+.navbar {
+  background-color: blueviolet;
+  text-align: center;
+
+}
+
+.navbar .container {
+  display: flex;
+
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  padding-right: 7px;
+}
+
+.navbar .nav-item {
+  padding-right: 7px;
+}
+
+.navbar i {
+  padding-right: 7px;
+}
+
+.navbar .nav-link i {
+  padding-right: 7px;
+}
+
+
+
+  /*--------- Jumbotron -------*/
+  
+
+  .jumbotron-fluid {
+    display: flex;
+    color: #fff;
+    height: 500px;
+    padding: 25px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+  }
+  
+  
+  /*------- Cards -----*/
+  .CardsDiv{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-content: center;
+      text-align: center;
+      padding: 25px;
+  }
+  
+  .CardsDiv .card {
+    padding: 15px;
+    text-align: center;
+  }
+  /*------- Carousel -----*/
+
+.CarouselDiv{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #2d6b6f;
+    padding-bottom: 20px;
+}
+
+
+.img-fluid  {
+    max-width: 60% !important;
+    max-height: fit-content;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
